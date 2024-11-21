@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_otp',
     'login',
-    
+    'owners',
+    'chat',
+
 
 ]
 
@@ -126,3 +128,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Media Files Settings
+MEDIA_URL = '/media/'  # URL prefix for accessing media files
+MEDIA_ROOT = BASE_DIR / 'media'  # Folder where media files will be stored
