@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('api/auth/', include('login.urls')),  # Adjust 'accounts' as needed
+
+    path('api/owners/', include('owners.urls')),  # Include owners app routes
 ]
