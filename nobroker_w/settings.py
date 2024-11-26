@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'login',
     'owners',
     'chat',
+    'searchbar',
 
 
 ]
